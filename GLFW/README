@@ -1,0 +1,71 @@
+Controllers:-
+	KeyBoard:-
+		Start Game :
+			Press P 
+		Buckets Movement:
+			Red:
+				Left  : right_ctrl + left_ArrowKey
+				Right : right_ctrl + right_Arrowkey
+			Blue:
+				Left  : right_alt + left_Arrowkey
+				Right : right_alt + right_Arrowkey
+
+		Cannon Movement : 
+				Up          : s
+				Down        : f
+				rotate_up   : a
+				rotate_down : d
+
+		Laser :
+			fire : space
+
+		Screen :
+			zoom_in   : up_ArrowKey
+			zoom_out  : down_ArrowKey
+
+		Bricks  :
+			speed_up    : n
+			speed_down  : m
+
+		panning 
+			move_right : right_ArrowKey
+			move_left : left_ArrowKey
+
+		Exit : esc
+
+
+	Mouse :-
+		Start Game :
+			click left_button
+		Buckets Movement :
+			Drag and drop i.e. select the desired bucket and drop to the desired position (horizontal movement only)
+
+		Cannon Movement  :
+			Drag and drop i.e. select the desired cannon and drop to the desired position (vertical movement only)	
+		
+		Fire :
+			click anywhere(except for the bucket region and cannon area) to fire at that position
+
+		Zoom :
+			Zoom_In  : scroll_up	
+			Zoom_out : scroll_down
+
+		panning :
+			Hold RightButton and move
+
+
+Scoring :-
+	-  +10 points for hitting black brick
+	-  +10 points for collecting red brick in the red bucket
+	-  +10 points for collecting blue brick in the blue bucket
+	-  +50 points for hitting golden brick (BONUS)
+	-  -10 points for hitting blue/red brick
+	-  -10 points for collecting bricks in wrong bucket
+
+GameOver :-
+    -  Collecting Black brick in any of the bucket
+
+Bonus :-
+	- Golden Brick for +50 points
+
+
